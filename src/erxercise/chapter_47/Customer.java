@@ -1,4 +1,6 @@
-package erxercise.chapter_43;
+package erxercise.chapter_47;
+
+import java.util.Objects;
 
 public class Customer {
     //속성
@@ -20,7 +22,7 @@ public class Customer {
         return price;
     }
 
-    protected Customer(){
+    Customer(){
 
     }
 
@@ -59,5 +61,10 @@ public class Customer {
 
         }
         return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(this.customerID);
     }
 }
