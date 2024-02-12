@@ -1,4 +1,4 @@
-package mission.week7day1;
+package mission.week7.week7day1;
 
 public class DivideByZeroException extends RuntimeException{
     public DivideByZeroException(String message) {

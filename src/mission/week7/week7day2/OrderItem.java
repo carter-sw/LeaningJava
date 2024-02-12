@@ -1,4 +1,4 @@
-package mission.week7day2;
+package mission.week7.week7day2;
 
 public class OrderItem {
     private int itemId;
